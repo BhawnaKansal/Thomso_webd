@@ -1,0 +1,362 @@
+*{
+padding: 0;
+margin: 0;
+line-break: auto;
+}
+.menu{
+
+    list-style-type: none;
+    margin: 0.5vw;
+    overflow: hidden;
+    position:sticky;
+    background-attachment: fixed;
+    display: flex;
+    padding-top: 3.5vw;
+    text-decoration: none;
+    padding-bottom: 1vw;
+}
+.nav a{
+    font-size: 1.25vw;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav li {
+    float: left;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+    padding-bottom: 4vw;
+
+}
+.nav li:hover{
+    color: rgb(255, 89, 0);
+}
+.mob{
+    display: none;
+}
+.home{
+    background:url("Rectangle\ 48.png");
+    text-align: center;
+    padding-bottom: 5vw;
+}
+.heading{
+    font-size: 3.5em;
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-bottom: 4vw;
+}
+.appstore,.playstore{
+    margin-top: 2vw;
+    padding:15px;
+    background:none;
+    font-size: large;
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-color: white;
+}
+.hometext{
+    font-size: 2vw;
+}
+.home{
+    color: white;
+}
+.mobile img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    overflow: x 40px; ;
+    overflow: y 60px; ;
+}
+#img1 {
+    margin-left: 31%;
+    margin-top: -14%;
+    position: relative;
+    width: 30vw;
+}
+#img2 {
+    margin-left: -12%;
+    position: absolute;
+    width: 15vw;
+    margin-top: -3%;
+}
+hr{
+    width: 50%;
+    height: 1px;
+    margin-left: 21vw;
+}
+.row1,.row2,.row3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0;
+    border-color: black;
+
+}
+.c1a,.c2a,.c3a{
+
+    font-size: 1.5vw;
+}
+.c1b,.c2b,.c3b{
+    font-size: 1.73vw;
+}
+.row1 img{
+    width: 33vw;
+    padding-left: 19vw;
+}
+.content1,.content3{
+    padding-top:12vw;
+    padding-right: 17vw;
+    width:30vw ;
+}
+.content2{
+    padding-top:12vw;
+    padding-left: 19vw;
+}
+.content h1{
+    font-size: 2.5vw;
+}
+.row2 img{
+    width: 30vw;
+    padding-right: 19vw;
+    padding-top:0;
+}
+.row3 img{
+    width: 30vw;
+    padding-left: 19vw;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.download{
+    text-align: center;
+    color: white;
+    background: url("Rectangle\ 47.png");
+    padding: 4vw;
+}
+button:hover{
+    background: rgb(255, 89, 0); 
+}
+.formob,.buynow,.tryforfree{
+    display: none;
+}
+.browser{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.column1,.column2,.column3{
+    padding-top: 0.5vw;
+    min-height: 1px;
+    padding-right: 3vw;
+    margin-left: 4.5vw;
+    line-gap-override: 2px;
+}
+.column1,.column2{
+    padding-left: 5vw;
+}
+.column2{
+padding: 2vw;
+}
+.footer img{
+    margin-left: 1vw;
+}
+.mobfooter{
+    display: none;
+}
+@media only screen and (max-width: 650px) {
+    .nav {
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+        
+    }
+    .nav .menu {
+        display: none;
+    }
+    .nav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .mob{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 4vw;
+    }
+    .nav img {
+        margin-left: 2vw;
+        margin-top: 2vw;
+    }
+    .appstore,.playstore{
+        padding:4vw;
+        background:none;
+        font-size: large;
+        border-radius: 10vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        color:rgb(255, 89, 0);
+        font-size: 4vw;
+        font-weight: bold;
+        display: block;
+        margin: auto;
+        border-color:rgb(255, 89, 0);
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+    }
+    .home{
+        background: none;
+        color: black;
+        padding-bottom: 0;
+    }
+    .heading{
+        color: black;
+        font-size: 9vw;
+        font-weight: bold;
+        padding: 3vw;
+    }
+    .hometext{
+        color: rgb(76, 75, 75);
+        font-size: 5vw;
+        padding: 2vw;
+    }
+    .mobile img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        overflow: x 40px; ;
+        overflow: y 60px; ;
+    }
+    #img1 {
+        margin-left: 0;
+        margin-top: -16%;
+        position: relative;
+        width: 80vw;
+    }
+    #img2 {
+        margin-left: -34%;
+        position: absolute;
+        width: 40vw;
+        margin-top: 14%;
+    }
+    hr{
+        width: 100%;
+        margin: 0;
+    }
+    .row1,.row2,.row3{
+        display: flex;
+        padding: 5vw;
+    }
+    
+    .row1,.row3{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .content img {
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    .c1a,.c2a,.c3a{
+        display: flex;
+        align-items: center;
+        font-size: 5vw;
+        width: 100%;
+        text-align: center;
+        padding-left: 2em;
+    }
+    .c1b,.c2b,.c3b{
+        font-size: 4vw;
+        text-align: center;
+        margin: auto;
+        width: 52vw;
+    }
+    .content h1{
+        display: flex;
+        text-align: center;
+        width:100%;
+        font-size: 5vw;
+        margin: auto;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        position: relative;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .column1{
+        display:block;
+        text-align: center;
+    }
+    .content1,.content3{
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        width: 57vw;
+    }
+    .content1,.content2,.content3{
+        padding: 0;
+    }
+    .download .appstore,.download .playstore,.marketing{
+        display:  none;
+    }
+    .download{
+        background: rgb(30, 30, 90);
+        width: 100%;
+        padding: 5vw;
+    }
+    .download h1{
+        padding: 4vw;
+        font-size: 9vw;
+    }
+    .formob{
+        display: inline;
+        font-size: 7vw;
+        color: rgb(96, 95, 95);
+    }
+    .tryforfree,.buynow{
+        display: inline;
+        padding:4vw;
+        background:none;
+        font-size: large;
+        border-radius: 4vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        color:white;
+        font-size: 4vw;
+        font-weight: bold;
+        margin: auto;
+        border-color:white;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
+    }
+    .mobfooter{
+        display: block;
+    }
+    .browser{
+        display: none;
+    }
+    .col2mob{
+    display: flex;
+    justify-content: center;
+    }
+    .col2mob img{
+        padding: 2vw;
+    }
+}
